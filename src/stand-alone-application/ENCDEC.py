@@ -16,6 +16,8 @@ unpad = lambda s: s[:-ord(s[len(s)-1:])]
 #GENERATE A (random hexadecimal number)
 #temporaryKey = binascii.b2a_hex(os.urandom(16))
 
+
+
 '''
 Method:
 	shamirs_split

@@ -18,37 +18,50 @@
 			button {
 				background-color: white;
 				color :grey;
-				border-radius: 10px;
+				padding:7%;
+				width: 200px;
+				gap:20px;
+				whitespaces:nowrap;
 			}
 			button:hover {
-				background-color: white;
-				color: black;
+				
+				background-color: black;
+				color: white;
+			}
+			ul{
+				list-style: none;			
+			}
+			li{
+				margin-left: 20px;			
+			}
+			li:hover{
+				cursor:pointer;			
 			}
 		</style>
 	</head>
-	<body>
+	<body style="font-family: sans-serif;">
+		<header style="margin-top:2%">
+			<div style="display: flex;padding-left:5%; padding-right:5%">
+				<div style="width:65%;"><ul style=" display: flex"><li>Tejas Murkya</li><li>Siddhi Mundada</li><li>Shrushti Naik</li></ul></div>
+				<div style="width:35%;;"><ul style=" display: flex; justify-content:right"><li>Login</li><li>Register</li></ul></div>
+			</div>
+		</header>	
+		<div style="text-align:center; font-size:85px; margin-top:2%;">Cloud-Based Secure Text Transfer Using Diffie Hellman Key Exchange</div>
 		<div class="container" style="font-color: #160214">
 		<center>
-			<h1> Thrain</h1><br><br>
+			<br><br>
 			<table>
 				<tr>
 					<td style="padding: 1px"><a href="upload-file"><button style="font-color: #160214">file-upload</button></a></td>
 					<td style="padding: 1px"><a href="file-directory"><button style="font-color: #160214">file-directory</button></a></td>
 					<td style="padding: 1px"><a href="public-key-directory"><button style="font-color: #160214">download-public-key</button></a></td>
-					<td style="padding: 1px"><a href="register"><button style="font-color: #160214">register-user</button></a></td>
 				</tr>
 			</table>
 		</center>
 		<br><br>
-		<div class="fluid-container" style="font-size:20px;font-color: #160214">
-		<p>The user gets to choose from one of the following options:</p>
 		<br>
-		<ul>
-			<li><i>He gets to upload the file to the cloud in a secured manner.</i></li><br>
-			<li><i>He gets to choose from thelist of all the different files that are present on the cloud provided he has the required credentials for decrypting the file.</i></li><br>
-			<li><i>He can also download public key associated with the user with whom the file transfer is to take place.</i></li><br>
-			<li><i>To upload his file to cloud storage the user needs to be registered so that his file can be shared with the other desired person in an instant.</i></li><br>
-		</ul>
+		<div style="text-align:center; font-size:55px; margin-top:2%;">What We Provide?</div>
+		<div style="text-align:center; font-family: sans-serif;">You can upload the file onto the cloud. Our webapp will encrypt the uploaded file so no hacker can steal the information of it.</div>	
 	</div>
 	</div>
 	</body>
